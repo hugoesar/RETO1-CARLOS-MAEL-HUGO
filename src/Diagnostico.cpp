@@ -29,8 +29,6 @@ void registrarResultado(const InfoEntorno& info, const string& rutaLog) {
         log << "=== Resultado del diagnostico ===" << endl;
         log << "Hostname: " << info.hostname << endl; 
         log << "CPU nucleos: " << info.CPU_nucleos << endl;
-        log << "RAM disponible: " << info.RAM_disponible << " GB" << endl;
-        log << "Adaptador de red virtual: " << (info.adaptadorRedVirtual ? "si" : "no") << endl;
         log << "Aislado: " << (info.aislado ? "si" : "no") << endl;
         log << "Detalle: " << info.detalle << endl;
 
