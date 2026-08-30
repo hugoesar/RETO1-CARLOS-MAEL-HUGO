@@ -23,8 +23,6 @@ struct InfoEntorno {
     bool aislado;
     string detalle;       // qué se detectó y por qué
     int CPU_nucleos; // cantidad de núcleos de CPU, normalmente colocan un valor bajo en entornos virtuales
-    double RAM_disponible; // en gigabytes
-    bool adaptadorRedVirtual; // true si se detecta un adaptador de red típico de VM
     string hostname; // nombre del host de la máquina, que puede ser un indicador de un entorno aislado
 };
 
